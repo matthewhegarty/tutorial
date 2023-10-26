@@ -9,6 +9,6 @@ class OkTest(TestCase):
 
 
 class AsyncImportersTestCase(IsolatedAsyncioTestCase):
-    async def test_copy_rows(self):
+    async def test_fails(self):
         self.assertEqual(1, 1)
 
