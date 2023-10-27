@@ -1,2 +1,4 @@
+# fails from django 4.1.0
 #django==4.2.6
+# works ok in 4.0.x
 git+https://github.com/django/django.git@stable/4.0.x#egg=django
